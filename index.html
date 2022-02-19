@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find your meal by searching your ingredients!</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = "styles.css">
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Any Ingredient to Make A Meal!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bad+Script&display=swap" rel="stylesheet">  <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
+  
+  <div class = "contain">
+    <div class = "wrap">
+      <div class = "search">
+        <h2 class = "title">Find Any Ingredient to Make A Meal!</h2>
+        <blockquote>You don't come into cooking to get rich.<br>
+          <cite>-Gordon Ramsay</cite>
+        </blockquote>
 
-    <div class = "contain">
-        <div class = "wrap">
-            <div class = "search-bar">
-                <h2 class = "header-2">Find you meal by searching your ingredients!</h2>
-                <blockquote>You don't come into the cooking to get rich.<br>
-                    <cite>
-                        - Gordon Ramsey
-                    </cite>
-                </blockquote>
-                <div class = "search">
-                    <input type = "text" class = "content" placeholder = "Enter any ingredient you want to make your meal with" id = "input">
-                    <button type = "submit" class = "search-button" id = "search-button">
-                        <i class = "quick-search"></i>
-                    </button>
-                </div>
-            </div>
-
-            <div class = "search-result">
-                <h2 class = "header-2">Recommended Meals for your ingredient </h2>
-                <div id = "meal">
-                    <div class = "item">
-                        <div class = "item-picture">
-                            <img src = "food.jpg" alt = "food-pictures">
-                        </div>
-                        <div class = "item-name">
-                            <h3>French Fries</h3>
-                            <a href = "#" class = "get-recipe">Get Recipe</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class = "search-box">
+          <input type = "text" class = "ctrl" placeholder="Enter an ingredient" id = "input">
+          <button type = "submit" class = "search-button button" id = "search-button">
+            <i class = "fas fa-search"></i>
+          </button>
         </div>
+      </div>
+
+      <div class = "result">
+        <h2 class = "header-2">Meals For Selected Ingredient!</h2>
+        <div id= "meal">
+          <!-- meal item -->
+          <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food">
+            </div>
+            <div class = "meal-name">
+              <h3>Potato Chips</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of meal item -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "button close-recipe" id = "close-recipe">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- <h2 class = "recipe-heaeder-2">Meals Name Here</h2>
+          <p class = "category">Category Name</p>
+          <div class = "instructions">
+            <h3>Instructions:</h3>
+            <p>Text here</p>
+            <p>Text here too</p>
+          </div>
+          <div class = "recipe-photo">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
     </div>
-    <script src = "script.js"></script>
+  </div>
+
+
+
+  <script src = "script.js"></script>
 </body>
 </html>
+
