@@ -2,7 +2,7 @@
 My Project is about a website that is capable of giving recipes that are based on one ingredient that you have at home. By searching for one ingredient, you are able to get a whole list of Meals that have that ingredient in their recipe and you will be able to choose from there.
 
 ## Design Process
-My Website is those who are interested in cooking or are locked in their own houses. With the COVID-19 situation around and the later Omicron virus, it could get harder and harder to go out to eat. There will bound to be cases where people would be interested in  As such, I wanted to make a website that is easy for people to use without having to scour the internet searching for a recipe. 
+My Website is those who are interested in cooking or are locked in their own houses. With the COVID-19 situation around and the later Omicron virus, it could get harder and harder to go out to eat. There will bound to be cases where people would be interested in different thing like cooking for example. As such, I wanted to make a website that is easy for people to use without having to scour the internet searching for a recipe. 
 
 ### User type 
 As a User type, it would be extremely convenient for me to be able to simply input in one ingredient and have multiple recipes given to me immediately compared to searching for a recipe and checking to see if I have that ingredient.
@@ -48,3 +48,5 @@ The photos used in this site were obtained from the API https://www.themealdb.co
 I received inspiration for this from my mother.
 I received tons of help from a friend. Thank you to him for staying up till late nights helping me with the code and telling me what to do when I cannot think of anything. Also helped me by simplifying a lot of messy code.
 
+## Video File
+https://drive.google.com/drive/folders/1yZvUJudpbCprbagXZS3-sHpqsknjX6d4?usp=sharing
